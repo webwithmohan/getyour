@@ -44,7 +44,8 @@ submitbtn.addEventListener("click",() =>{
        i7.value=address[0] 
        i8.value=contact[0] 
     }else{
-        i1.value=="NO ADDRESS FOUND"
+        i1.value="NO ADDRESS FOUND"
+        
     }
 
 })
