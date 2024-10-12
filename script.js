@@ -48,5 +48,9 @@ submitbtn.addEventListener("click",() =>{
     }
 
 })
+function check() {
+    var hii = document.getElementById("i1").value;
+    document.getElementById("i1").value=hii.toUpperCase();
+}
 
 
