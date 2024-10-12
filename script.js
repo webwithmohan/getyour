@@ -43,6 +43,8 @@ submitbtn.addEventListener("click",() =>{
         i6.value=rollnumber[0]
        i7.value=address[0] 
        i8.value=contact[0] 
+    }else{
+        i1.value=="NO ADDRESS FOUND"
     }
 
 })
