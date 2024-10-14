@@ -12,7 +12,7 @@
 
     <button id="btn2">CLEAR</button>
     
-</body>
+</body'>
 <script>
     var text1=document.getElementById("text")
     var btn1=document.getElementById("btn")
@@ -20,7 +20,11 @@
     
 
     btn1.addEventListener("click", () =>{
-        alert("WELCOME"+"  "+ text1.value +"  "+"❤")
+    if(text1.value=="MOHANRAJ" ||text1.value=="mohanraj"){
+        text1.value="invalid"
+
+    }else
+        alert("WELCOME"+"  "+ text1.value +"  "+"PUNDA "+"❤")
         
     })
     clrbtn.addEventListener("click", ()=>{
