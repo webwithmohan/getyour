@@ -9,15 +9,22 @@
     <h1>WELCOME TO MY WEBSITE</h1>
     <input type="text"required=""id="text">
     <button id="btn">CLICK</button>
+
+    <button id="btn2">CLEAR</button>
     
 </body>
 <script>
     var text1=document.getElementById("text")
     var btn1=document.getElementById("btn")
+    var clrbtn=document.getElementById("btn2")
+    
 
     btn1.addEventListener("click", () =>{
         alert("WELCOME"+"  "+ text1.value +"  "+"❤")
         
+    })
+    clrbtn.addEventListener("click", ()=>{
+        text1.value=""
     })
 
 </script>
